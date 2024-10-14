@@ -1,0 +1,19 @@
+.languages-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 1rem;
+}
+
+.languages-container li {
+  margin: 0.5rem 2rem; /* Increase horizontal and vertical margins */
+}
+
+.socials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: auto;
+}

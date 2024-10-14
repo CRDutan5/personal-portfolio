@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Carlitos Dutan Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/mystyle.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <style>
+      .banner-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+      }
+
+      .banner-image-container {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+
+      .banner-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 30%; /* Adjust this value to fine-tune the zoom */
+      }
+
+      .banner-text h2 {
+        margin-bottom: 0.5em;
+      }
+
+      .banner-text p {
+        margin-top: 0;
+      }
+
+      @media screen and (max-width: 736px) {
+        .banner-image-container {
+          width: 150px;
+          height: 150px;
+        }
+      }
+
+      .banner-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px; /* Adjust this value as needed */
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .left-inner,
+      .right-inner {
+        flex: 1;
+        padding: 20px;
+      }
+
+      .left-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .right-inner {
+        display: flex;
+        align-items: center;
+      }
+
+      @media screen and (max-width: 768px) {
+        .banner-container {
+          flex-direction: column;
+        }
+
+        .left-inner,
+        .right-inner {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header -->
+      <!-- <header id="header" class="alt">
+        <h1><a href="index.html">Solid State</a></h1>
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header> -->
+
+      <!-- Menu -->
+      <nav id="menu">
+        <div class="inner">
+          <h2>Menu</h2>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="generic.html">Generic</a></li>
+            <li><a href="elements.html">Elements</a></li>
+            <li><a href="#">Log In</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+          <a href="#" class="close">Close</a>
+        </div>
+      </nav>
+
+      <!-- Banner -->
+      <section id="banner">
+        <div class="banner-container">
+          <div class="inner left-inner">
+            <div class="banner-content">
+              <div class="banner-image-container">
+                <img
+                  src="./images/personal-pic.jpeg"
+                  alt="Carlitos Dutan"
+                  class="banner-image"
+                />
+              </div>
+              <div class="banner-text">
+                <h2>Carlitos Dutan</h2>
+                <p>Software Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="inner right-inner">
+            <div class="banner-content">
+              <div class="banner-text">
+                <p>
+                  I’m passionate about using technology to bring creative ideas
+                  to life. I focus on building innovative solutions and
+                  exploring new ways to push the boundaries of what’s possible
+                  in software development.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Wrapper -->
+      <section id="wrapper">
+        <!-- One -->
+        <section id="one" class="wrapper spotlight style1">
+          <div class="inner">
+            <!-- <a href="#" class="image"><img src="images/jjay.jpeg" alt="" /></a> -->
+            <div class="content">
+              <!-- <h2 class="content">Education</h2> -->
+              <h2 class="major">CUNY John Jay College of Criminal Justice</h2>
+              <p style="font-weight: bold">
+                Bachelor of Science in Computer Science and Information Security
+              </p>
+              <p>
+                I gained a strong foundation in both computer science and
+                cybersecurity. The program equipped me with skills in software
+                development, network security, and digital forensics, preparing
+                me for a career at the intersection of technology and security.
+              </p>
+              <a
+                href="https://www.jjay.cuny.edu/"
+                class="special"
+                target="_blank"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two" class="wrapper alt spotlight style2">
+          <div class="inner">
+            <!-- <a href="#" class="image"
+              ><img src="images/pursuit-logo.gif" alt=""
+            /></a> -->
+            <div class="content">
+              <h2 class="major">Pursuit Fellowship</h2>
+              <p style="font-weight: bold">Full Stack Development</p>
+              <p>
+                The program provides in-depth training in web development
+                technologies, focusing on practical skills in JavaScript, HTML,
+                CSS, React, PostgreSQL, Test Driven Development, and deployment
+                with ElephantSQL. Through hands-on projects and collaboration,
+                it prepares participants for real-world software engineering
+                challenges by fostering problem-solving abilities, teamwork, and
+                adherence to industry best practices.
+              </p>
+              <a
+                href="https://www.pursuit.org/fellowship"
+                class="special"
+                target="_blank"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Three -->
+        <section id="three" class="wrapper spotlight style3">
+          <div class="inner">
+            <!-- <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a> -->
+            <div class="content">
+              <h2 class="major">Skills</h2>
+              <div class="languages-container">
+                <p class="languages-container li">Javascript</p>
+                <p class="languages-container li">HTML</p>
+                <p class="languages-container li">CSS</p>
+                <p class="languages-container li">React.js</p>
+                <p class="languages-container li">Node.js</p>
+                <p class="languages-container li">Express.js</p>
+                <p class="languages-container li">PostgreSQL</p>
+              </div>
+              <!-- <a href="#" class="special">Learn more</a> -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Four -->
+        <section id="four" class="wrapper alt style1">
+          <div class="inner">
+            <h2 class="major">Projects</h2>
+            <p>
+              As a software engineer, I've developed a diverse portfolio of
+              projects that showcase my skills in full-stack development,
+              problem-solving, and innovative thinking. My work includes:
+            </p>
+            <section class="features">
+              <article>
+                <a href="#" class="image"
+                  ><img
+                    src="https://res.cloudinary.com/dwygxzqku/image/upload/v1722631715/H2H/h2h-logos/H2H-Logo_jnhf5q.png"
+                    alt=""
+                    style="height: 250px"
+                /></a>
+                <h3 class="major">
+                  H2H (Head-To-Head)
+                  <span style="font-size: small"
+                    >JavaScript, HTML, CSS, React, PostgreSQL, Express.js,
+                    Bcrypt, JWT</span
+                  >
+                </h3>
+                <p>
+                  H2H is your ultimate app for finding teammates, creating
+                  matches, and elevating your basketball experience. Our
+                  platform simplifies the process of building teams and setting
+                  up games, helping you reconnect with the thrill of competitive
+                  sports.
+                </p>
+                <a
+                  href="https://head2head.netlify.app/"
+                  class="special"
+                  target="_blank"
+                  >Visit Website!</a
+                >
+                <!-- <a href="#" class="special">Check Out Github!</a> -->
+              </article>
+              <!--  -->
+              <article>
+                <a href="#" class="image"
+                  ><img
+                    src="https://github.com/ArmandoPires103/TutorLink-Frontend/blob/main/public/TutorLink.png?raw=true"
+                    alt=""
+                    style="height: 250px"
+                /></a>
+                <h3 class="major">
+                  TutorLink
+                  <span style="font-size: small"
+                    >JavaScript, HTML, CSS, React, PostgreSQL, Express.js,
+                  </span>
+                </h3>
+                <p>
+                  TutorLink offers personalized learning experiences tailored to
+                  individual needs, empowering students to achieve their
+                  academic goals. With a diverse network of qualified tutors,
+                  TutorLink ensures quality education accessible to all.
+                </p>
+                <a
+                  href="https://github.com/ArmandoPires103/TutorLink-Frontend"
+                  class="special"
+                  >Learn more</a
+                >
+              </article>
+              <!-- <article>
+                <a href="#" class="image"
+                  ><img src="images/pic06.jpg" alt=""
+                /></a>
+                <h3 class="major">Ante fermentum</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
+                  nulla dignissim dapibus ultrices.
+                </p>
+                <a href="#" class="special">Learn more</a>
+              </article>
+              <article>
+                <a href="#" class="image"
+                  ><img src="images/pic07.jpg" alt=""
+                /></a>
+                <h3 class="major">Fusce consequat</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
+                  nulla dignissim dapibus ultrices.
+                </p>
+                <a href="#" class="special">Learn more</a>
+              </article> -->
+            </section>
+            <!-- <ul class="actions">
+              <li><a href="#" class="button">Browse All</a></li>
+            </ul> -->
+          </div>
+        </section>
+      </section>
+
+      <!-- Footer -->
+      <section id="footer">
+        <div class="inner">
+          <h2 class="major">Get in touch</h2>
+          <!-- <p>
+            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
+            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
+            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
+            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+          </p> -->
+          <!-- <form method="post" action="#">
+            <div class="fields">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li><input type="submit" value="Send Message" /></li>
+            </ul>
+          </form> -->
+          <ul class="socials-container">
+            <!-- <li class="icon solid fa-home">
+              Untitled Inc<br />
+              1234 Somewhere Road Suite #2894<br />
+              Nashville, TN 00000-0000
+            </li> -->
+            <!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
+            <li class="icon solid fa-envelope">
+              <span>carlitosrdutan@gmail.com</span>
+            </li>
+            <li class="icon brands fa-linkedin">
+              <a
+                href="https://www.linkedin.com/in/carlitosdutan/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="icon brands fa-github">
+              <a href="https://github.com/CRDutan5" target="_blank">Github</a>
+            </li>
+            <!-- <li class="icon brands fa-instagram">
+              <a href="#">instagram.com/untitled-tld</a>
+            </li> -->
+            <ul class="copyright">
+              <li>© Untitled Inc. All rights reserved.</li>
+              <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
